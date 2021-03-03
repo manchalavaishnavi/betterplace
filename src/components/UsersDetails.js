@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import UserInformation from './UserInformation'
 import './usersmap.css'
 function UsersDetails(props){
