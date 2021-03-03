@@ -1,0 +1,35 @@
+.fetchbox{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.fetchselect{
+    
+    outline:none;
+    width:250px;
+    height:30px;
+    font-family: 'Carter One', cursive;
+    font-size:15px;
+    color:#1d1e22;
+}
+.allselects{
+    display: flex;
+    flex-wrap: row;
+}
+.buttonscss{
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.previouscolor{
+    background-color: #01AAAD;
+    width: 120px;
+    margin:0 220px;
+    display:inline-block;
+    line-height: 60px;
+}
+.motionfix{
+    position: fixed;
+    background-color: white;
+
+}

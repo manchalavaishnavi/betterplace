@@ -1,0 +1,6 @@
+.mapdiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 210px;
+    padding-top: 230px;
+}

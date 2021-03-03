@@ -1,0 +1,13 @@
+.image_dialog {
+    box-shadow: 0 8px 6px -6px black;
+    position: static;
+    left: 20%;
+    top: 10%;
+  }
+  .image_large {
+    width: 300px;
+  }
+.largeimage{
+    border-radius: 50%;
+    border: 4px solid #17a589;
+}  
