@@ -53,19 +53,19 @@ class Fetching extends React.Component{
     render(){
         console.log(this.state.users)
         return (
-            <div className='allfetch' >
+            <div  >
                 <div className='motionfix'>
                 <div className='buttonscss'>
-                <button className='previouscolor' onClick={this.previousbutton}>previous </button>
-                <button className='previouscolor' onClick={this.nextbutton}>next</button>
+                <button className='previouscolor' onClick={this.previousbutton}>Previous </button>
+                <button className='previouscolor' onClick={this.nextbutton}>Next</button>
                 </div>
                 
                 
                 <div className='fetchbox'>
                 <select value={this.state.gender} onChange={this.handlegender} className='fetchselect'>
                     <option >select Gender</option>
-                    <option value='Male'>Male</option>
-                    <option value='Female'>Female</option>
+                    <option value='male'>Male</option>
+                    <option value='female'>Female</option>
 
                 </select>
                 <select value={this.state.nationality} onChange={this.handlenationality} className='fetchselect'>
