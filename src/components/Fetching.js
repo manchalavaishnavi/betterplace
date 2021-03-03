@@ -56,7 +56,7 @@ class Fetching extends React.Component{
             <div  >
                 <div className='motionfix'>
                 <div className='buttonscss'>
-                <button className='previouscolor' onClick={this.previousbutton}>Previous </button>
+                <button className={ this.state.ind==1 ? 'previouscolorr':'previouscolor'} onClick={this.previousbutton}>Previous </button>
                 <button className='previouscolor' onClick={this.nextbutton}>Next</button>
                 </div>
                 

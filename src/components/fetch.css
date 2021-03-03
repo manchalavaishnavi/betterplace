@@ -39,3 +39,12 @@
 
 
 }
+.previouscolorr{
+    background-color: red;
+    width: 120px;
+    margin:0 220px;
+    display:inline-block;
+    line-height: 60px;
+    font-size: 25px;
+    color: azure;
+}
